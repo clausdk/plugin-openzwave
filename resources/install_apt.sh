@@ -65,7 +65,7 @@ echo 20 > ${PROGRESS_FILE}
 sudo apt-get update
 echo 30 > ${PROGRESS_FILE}
 echo "Installation des dependances"
-apt_install git python3-pip python-dev python3-pyudev python-setuptools python3-louie make build-essential libudev-dev g++ gcc python-lxml unzip libjpeg-dev python3-serial python3-requests
+apt_install git python3-pip python-dev python3-pyudev python-setuptools make build-essential libudev-dev g++ gcc python-lxml unzip libjpeg-dev python3-serial python3-requests
 echo 40 > ${PROGRESS_FILE}
 # Python
 echo "Installation des dependances Python"
