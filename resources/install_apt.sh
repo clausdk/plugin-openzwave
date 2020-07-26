@@ -33,7 +33,7 @@ function apt_install {
 }
 
 function pip_install {
-  sudo pip install "$@"
+  sudo pip3 install "$@"
   if [ $? -ne 0 ]; then
     echo "could not install $p - abort"
     rm ${PROGRESS_FILE}
