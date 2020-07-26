@@ -1,3 +1,27 @@
+# Changelog Z-Wave
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 07/10/2019
+
+- Correction d'un bug lors de l'arret du démon
+- Correction de bugs
+- CETTE MAJ NECESSITE DE RECOMPILER LES DEPENDANCES (RELANCER)
+
+# 19-09-2019
+
+- Correction de bug d'affichage
+
+# 10-09-2019
+
+- Correction d'un soucis d'affichage de la table de routage
+
+# 09-09-2019
+- Adaptation des dépendances pour Debian10 Buster
+- Modification permettant de séparer les sorties sur les smart implant (cette fonction nécessite une recompilation des dépendances)
+
 04-02-2019
 ===
 - CETTE MAJ NECESSITE DE RECOMPILER LES DEPENDANCES (RELANCER)
@@ -667,5 +691,3 @@
 
     -   Correction du ping sur les nœuds en Timeout lors du
         test sanitaire.
-
-
